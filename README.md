@@ -1,22 +1,21 @@
-# persona-healthcare
+# Persona-Healthcare
 
 On The Persona-based Summarization of Domain-Specific Documents
 
-persona-codes/
-|
-|__ dataset/
-|   |__ sample_data/
-|   |   |__ ...                         -> contains two samples for reference 
-|   |        
-|   |__ full_data/
-|           |__ ...                     -> contains the train-val-test jsonl files
-|
-|
-|__ finetune-inference-codes/           -> all code files
-|
-|
-|__ README.md
-|__ requirements.txt
+    persona-codes/
+    |
+    |__ dataset/
+    |   |__ sample_data/
+    |   |   |__ ...                         -> contains two samples for reference 
+    |   |        
+    |   |__ full_data/
+    |           |__ ...                     -> contains the train-val-test jsonl files
+    |
+    |__ finetune-inference-codes/           -> all code files
+    |
+    |
+    |__ README.md
+    |__ requirements.txt
 
 
 Persona based Summary:-
@@ -70,3 +69,12 @@ Persona based Summary:-
             --max_new_tokens 100 \
             --target_domain all
         '''
+# Citation
+
+    @article{mullick2024persona,
+      title={On The Persona-based Summarization of Domain-Specific Documents},
+      author={Mullick, Ankan and Bose, Sombit and Saha, Rounak and Bhowmick, Ayan Kumar and Goyal, Pawan and Ganguly, Niloy and Dey, Prasenjit and Kokku, Ravi},
+      journal={arXiv preprint arXiv:2406.03986},
+      year={2024}
+    }
+        
