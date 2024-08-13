@@ -41,7 +41,7 @@ import nltk
 import pandas as pd
 import huggingface_hub
 
-# huggingface_hub.login(token='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')
+# huggingface_hub.login(token='<hugging_face_tokens>')
 # nltk.download('punkt')
 # nltk.download('wordnet')
 
